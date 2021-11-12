@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int k = 1;
+    int a = 0;
+    int b = 0;
+    printf("Введіть число A: ");
+    scanf("%i", &a);
+    do
+    {
+     printf("Введіть число b: ");
+     scanf("%i", &b);
+    } while(a > b);
+
+    for (int i = a; i <= b; i++)
+    {
+        k *= i;
+    }
+    printf("%i", k);
+}
