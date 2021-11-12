@@ -15,6 +15,6 @@ int main(void)
         temp +=i;
         i++;
    }
-   printf("Число K: %i\n Сума:%i\n" ,max,temp);
+   printf("K: %i\n Сума:%i\n" ,max,temp);
    return 0;
 }
